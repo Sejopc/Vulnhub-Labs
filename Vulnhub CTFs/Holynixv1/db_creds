@@ -1,0 +1,19 @@
+Database: creds
+Table: accounts
+[11 entries]
++-----+--------+------------+--------------------+
+| cid | upload | username   | password           |
++-----+--------+------------+--------------------+
+| 1   | 0      | alamo      | Ih@cK3dM1cR05oF7   |
+| 2   | 1      | etenenbaum | P3n7@g0n0wN3d      |
+| 3   | 1      | gmckinnon  | d15cL0suR3Pr0J3c7  |
+| 4   | 1      | hreiser    | Ik1Ll3dNiN@r315er  |
+| 5   | 1      | jdraper    | p1@yIngW17hPh0n35  |
+| 6   | 1      | jjames     | @rR35t3D@716       |
+| 7   | 1      | jljohansen | m@k1nGb0o7L3g5     |
+| 8   | 1      | kpoulsen   | wH@7ar37H3Fed5D01n |
+| 9   | 0      | ltorvalds  | f@7H3r0FL1nUX      |
+| 10  | 1      | mrbutler   | n@5aHaSw0rM5       |
+| 11  | 1      | rtmorris   | Myd@d51N7h3NSA     |
++-----+--------+------------+--------------------+
+
