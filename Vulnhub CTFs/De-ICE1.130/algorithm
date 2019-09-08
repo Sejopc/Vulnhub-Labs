@@ -1,0 +1,105 @@
+
+
+
+1	/*input is username of account*/	
+2	int[] processLoop(String input){       
+
+3	int strL=input.length;	O
+1);	
+1 p	
+5	int fChar=(int)input.charAt(0);	
+6	int[] encArr = int[strL+2];	
+7	for(int i=0;i<strL+1;i++){	
+8	encArr[i]=(int)input.charAt(i-1);}     
+9	encArr[0]=(int)lChar;	"x%
+12	encArr=loopBack(encArr);	
+13	encArr=loopProcesS(encArr);	
+
+0		14	int j=encArr.length-1;	
+15	for(int i=0;i<encArr;i++){	
+0	
+16	if(i==j) break;	\
+17	int t=encArr[i];	
+18	encArr[i]=encArr[j];	
+19	encArr[j]=t;j--;}	y
+
+20	return encArr;}	
+
+21	/*Note the pseudocode will be implemented with the 	
+
+5	22	root account and my account, we still need to implement it with the csadmin, sdadmin,	
+23	and dbadmin accounts though*/	
+1	x#HT
+4	V+
+
+24	int[] backLoop(int[] input){	
+25	int ref=input.length;	w
+
+26	int a=input[1]; int b=input[ref-1];	
+
+27	int ch=(a+b)/2;	
+
+3w8	\
+28 
+0;i<ref;i++){	
+
+
+4F
+
+
+
+
+
+
+
+
+
+0/V	?Q
+
+
+8
+31	return input;}	
+
+45	int[] loopProcess(int[] input){		
+46	for(int i=0;i<input.length;i++){	
+47      if(input[i]==40||input[i]==41) input[i]+=input.length;	
+
+48	else if(input[i]==45) input[i]+=20+i;}	
+
+8	%4
+
+49	return input;}	
+0	
+
+
+3le	`
+
+32	int[] loopBack(int[] input){	
+5{r	
+
+
+33	int ref=input.length/2;	
+
+
+34	int[] encNew =int[input.length+ref];	
+
+
+35	int ch=0;	
+0	O~
+
+36	for(int i=(ref/2);i<input.length;i++){	
+
+
+
+37	encNew[i]=input[ch]; ch++;}	
+38	for(int i=0;i<encNew.length;i++){	
+
+39	if(encNew[i]<=33) encNew[i]=33+(++ref*2);	
+40	else if(encNew[i]>=126) encNew[i]=126-(--ref*2);	
+41	else{	
+3c	
+42	if(i%2==0) encNew[i]-=(i%3);	
+
+43	else encNew[i]+=(i%2);}}	
+
+44	return encNew;}	I

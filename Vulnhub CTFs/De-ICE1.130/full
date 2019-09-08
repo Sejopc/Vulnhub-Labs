@@ -1,0 +1,1069 @@
+To: dbadmin@nosecbank.com
+CC: 
+Subject: New Custom Encryption for Passwords
+Date: Wed, 22 Dec 2010 16:45:19 +0500
+Return-Path: <sysadmin@nosecbank.com>
+Delivered-To: dbadmin:nosecbank.com@nosecbank.com
+Received: (qmail 20281 invoked from network); 22 Dec 2010 11:45:19 -0000
+X-Received: from network (192.168.1.123) by mailserv3-2.us6.service.com; 22 Dec 2010 11:45:19 -0000
+Received: from www.nosecbank.com (unknown [198.65.139.43]) by srv12.us6.service.com (Postfix) with ESMTP id D25753787DD for <dbadmin@nosecbank.com>; Wed, 22 Dec 2010 11:45:19 +0000 (GMT)
+Message-Id: <2010122216451.f81Ltw4R010211@www.nosecbank.com>
+Mime-Version: 1.0
+Content-Type: multipart; boundary="---=_NextPart_000_0000_01B99U57.YKGXJJ15"
+X-Mailer: K-Mail; Build 1.0.5510
+Thread-Index: X91tLOoP6jmNi2YfHfJJiS9y9krAnp==
+Message: 
+r! |
+#Q   
+                                           P
+                                            FO	
+                                                 y
+                                                          
+$n!#
+$JF&m "
+    k
+    c
+ sL!
+   v
+"sm	
+    W
+X-6W.
+     <
+                 
+ /( q
+                                                                                                                                                                           
+                                                                                                                                                                                         ^ /	I
+{)5K
+       z*32 
+eIp;F
+        :
+      
+Zz+P
+R	1	/*input is username of account*/	
+                                                                     
+                                                                                                       
+                                                                                                                                                      
+                        
+                                 X
+	2	int[] processLoop(String input){       
+&	aG
+                                                                                                              
+  kB
+    Z
+v	3	int strL=input.length;	O
+     
+	int lChar=(int)input.charAt(strL-1);	
+                 
+                         .
+d1 p	
+                                              X:
+                                                        *
+                                                             %R
+~] &
+	5	int fChar=(int)input.charAt(0);	
+          
+		6	int[] encArr = int[strL+2];	
+}                                                                J
+6  X    \
+   M
+         Y
+	7	for(int i=0;i<strL+1;i++){	
+                          |
+                           
+                            
+                                       !Y
+!U	8	encArr[i]=(int)input.charAt(i-1);}     
+                                                                                                                    
+                       Kr+
+		9	encArr[0]=(int)lChar;	"x%
+                                                                                                                                                                   
+                                                                                                                                                                                              
+!%7+:)
+*#$Z!
+!X)&(
+       
+            R
+       j
+34Cl'%6)
+%4I'
+                                  (\#O&
+                                                                  a
+          
+                     .d,
+A%<3+
+**V)
+w!6%
+[%=%OU
+                                                                                   
+                                                                                     
+5/Q'a=^/@9L&W/H+
+Z,,#
+%X+{%
+ [e11Arr.leencArr=backLoop(encArr);
+       y
+ 4*S
+ +,$
+         
+     
+           
+                  
+@=yA
+         
+ 	12	encArr=loopBack(encArr);	
+                                                                    
+                                                                                  
+. !4
+}m8       
+    +3
+                                                                      
+	13	encArr=loopProcesS(encArr);	
+                                                                                                                                                                        f
+                                                                                                                                                                         
+                  
+                     
+"@n	(m+.!.
+                                              %
+                                                                 
+                                                                    3 
+                                                                                  
+                                                                                                                                                     
+                       
+         '
+8:C.
+#G#f"e,
+'4S(z1
+ X(1
+                                                
+0		14	int j=encArr.length-1;	
+!v3$  
+3T0,.
+*o.10{,6X% 4
+.]8 #.
+0w%6m
+                                                                                       
+	15	for(int i=0;i<encArr;i++){	
+                                                     
+      
+         z
+          -/ 
+'g#+$
+!p+PV
+                                                     
+       A
+!s:%
+                                          &
+                     0	
+		16	if(i==j) break;	\
+	17	int t=encArr[i];	
+                                                                                            1/
+                                                                                                 }
+       
+                            
+4`"&
+   \
+                    
+                          
+                             a
+/* /
+	ELf
+                                        
+                                                         _
+	18	encArr[i]=encArr[j];	
+S$v 
+     
+                        
+'       
+              |h
+ :k)
+           )
+! q 
+                                
+                                  Zs
+                                       
+	19	encArr[j]=t;j--;}	y
+                     
+        2(&
+=L  
+   :
+                            
+                             "
+                                                                                  
+                                                                                                                                      
+         V
+<P<<^:,7*
+Rbe	d	
+               0
+	20	return encArr;}	
+                                                                  /	
+                                                                              
+                                                                               b%
+RX                                                                                         ,<
+      {2
+	21	/*Note the pseudocode will be implemented with the 	
+                                                          
+'I":-
+                                  	
+                                       &
+    
+       : 
+          
+             
+     6
+     
+          3t
+5	22	root account and my account, we still need to implement it with the csadmin, sdadmin,	
+                  
+                     +.
+                                 
+-                                 W
+          
+                     
+                           
+                               
+                                          G
+                 >6
+tR$''&
+"o		23	and dbadmin accounts though*/	
+}     
+                 
+                   
+                
+ -D3
+::B762
+)y+%
+ 1	x#HT
+*9$&y
+w$*!
+                                                                               
+                                                                                                                                                                                                   1
+F #s
+         -
+)# d6
+                      \
+                        
+qhu w
+.s-v7<+
+                                         
+        
+             'M
+                 
+                   
+&4	V+
+'T                             5+
+         >
+5|?0d6
+%;(1#P$
+            
+                                                
+                                                                               
+    .
+      yn
+@:t,R
+)f/4
+              ^
+                                                                                          
+0u#+3%
+'G+)%
+=:#[
+                                        
+                                                 
+             
+#)                
+                           ,[
+                               
+ l	v
+         
+          S
+                                   
+                                              
+                                               
+TQx                                                                                                  
+      
+V     
++1L-
+ n;$5
+5d&ki
+                   
+ 0iI7
+                                                       
+	24	int[] backLoop(int[] input){	
+                                                                                                                                                      |
+                                                                                                                                                     j
+   &
+     o
+L       
+        
+                 
+    
+    V
+        4
+                               
+                                
+	25	int ref=input.length;	w
+n	o	
+                                                                                  Q
+                                                        
+                                                      
+    
+K                                                      
+           
+         Kio	26	int a=input[1]; int b=input[ref-1];	
+                                                                          
+                                                                            
+                                  
+                                   
+ W!s
+    <
+                
+;.      
+                                                                                                                                                      
+ !r!s
+eJXn
+&6;+
+*[$|q
+"708
+                              \
+        m
+                                                             %
+                                                      
+        d
+a	$ 
+lt7       
+            =
+$	27	int ch=(a+b)/2;	
+              Z	
+                         
+                              
+                               
+3w8	\
+b!B5
+          |C
+      2
+  [;
+%	28 
+for(int i=0;i<ref;i++){	
+ ; mI
+        
+          
+              
+              
+e   
+                                                                                                                                                 j 
+                                                                                                                                                    
+/IS       N
+U@j%b
+     X
+                           
+V	  b
+     8
+      D
+       
+       
+                      
+       C
+                                                 
+                         
+       
+           D[kq
+    a	
+p       !
+           
+                 d
+          
+                  
+                                                                                               
+                                                                                                    
+                                                                                                                                                     
+                                                                                                                                                                       n
+                          
+                                                         o
+                                                           W
+                                                            b
+          c
+<'Y4
+                           
+                                                 
+                                                     ` @
+{	4F
+                                                                                                    
+                
+                          
+                                                                                         @
+Mf	i
+          Y
+            
+                 
+                    4
+      
+    
+                         8Z
+      
+       a-Y
+gfqW 
+          
+S-+$   R
+R r s,H 
+                                                                                                                                                                                                     
+                 e~
+          
+        #
+             *=
+                      8
+          A
+             
+                                       
+                                          Q
+                                                                                
+                                                                                                                                                                                   q
+                                                                                                                                                                                      
+      
+                 P~
+                    
+                     ~
+          
+               :
+                                
+H> v
+                                                                                                                  
+!fj 
+                
+    
+                  U m
+                       
+       r      D
+                                                                                                                                           t	
+                                                                                                                                                
+                                                                                                                                                          
+                                                                                                                                                            n
+             
+                                            t
+ Z	=
+                                                                 zGa,
+       I
+         	~
+:      
+    
+      _                    ' 
+                                             
+=	a__	
+HH	g
+         
+           q
+        @
+                           
+                                            
+                                
+                                                                      
+	~~&z
+)else input[i]=(input[i]+ref+i);}	.
+d	&k
+         
+            
+                                                              
+                                                               
+                                         
+O fH
+                                                                                                               k
+         
+                        
+            
+                                                     
+ ILK
+        S}k
+             
+                          
+!M~!
+                       c
+|	Kh	
+                                   
+                                                                                                                                 WF
+  Bv9
+                    .
+                              
+                                
+                                 .l
+                                          &
+                             Z
+a                                    
+                                                                                            
+!V                                                        $ 
+                                      
+0/V	?Q
+                                                      N6c
+                                                           
+       
+                               
+                                                          
+                                                               r3
+                                                                 
+                                                                    
+                                                                      4
+     
+`dsQ
+6              
+               
+                     
+       ,y
+         
+                     <
+                      
+5                      
+    #
+O      
+        
+                                                             x$\	c
+                
+                  
+              
+                                                                                                                           
+      F
+        
+                           
+   p
+     
+       _
+                          w
+                             
+                    
+      
+                                                                            }d
+W3@_T
+                                                                                
+                                                                                   ^D
+                                                                                     
+G 'a 41 
+Gh2.
+       
+      
+      
+           
+                                                                                                                h
+          y
+      
+       
+                                                                                         M
+                                                                                          8
+                                                                                            
+                                                                                             
+          $
+                                                                       hY
+                                                                         
+                                           
+                                                                                                
+                                                                                                                         !
+                                                                                                                        P
+    W
+     
+        fAqrd	
+                 T
+                   
+                      
+                                      
+                                                                                                  
+ w)w
+                =
+                 
+                   9
+                    a
+                     
+                           1
+	WR-
+   U	P8
+                                                             
+>                              
+     j<
+        
+         
+                   
+                                                          
+                                                                                                     
+    
+	31	return input;}	
+$	M`
+         
+  bz
+    
+                                   
+                          #
+&&$		45	int[] loopProcess(int[] input){		
+                                                                                  Q
+                                                                                         
+ 	46	for(int i=0;i<input.length;i++){	
+      
+         
+ c?-
+             
+              2"
+3M@7
+,H9"
+                                           !Z
+                                                                        
+"Ap$
+(C%o,
+"*(l4!1d
+                       d
+"`.-r6&
+                                                
+                                                  
+ O;5
+         >
+~ 0S-
+"    47      if(input[i]==40||input[i]==41) input[i]+=input.length;	
+                                                
+                                                            
+                                                                
+                                                         
+            
+             M
+        
+           g
+0K!H&
+.+7!
+q`                                                                   
+   V
+              `| 
+h  ?B                     ~
+,)" 
+e fp)
+                                      #
+                                          
+    
+                                                              
+                                                                                    
+o                                                                                   
+       
+O      
+:140]*
+'6#:%
+          
+A! )
+                  
+""&$'
+(J(#$\}
+6U:'
+                                                                 
+                                     
+                                                                                                       
+                        
+                                                                6
+i"1&
+      +C'>Y
+     } i
+'7{"/L
+2O-;q:
+    H
+!=%A,L<
+DBDp2
+                                               
+                                                          
+                                                                 
+                                                  
+%e                                                                            
+T	a	d
+        %z R(4
+ 1'P 
+, AC4
+C&%.
+                                                                     
+() P 
+	48	else if(input[i]==45) input[i]+=20+i;}	
+1#4)
+7X2P2D&
+'y"w%
+        ^
+                                                                                                                                    
+                                                                                                                                               
+                                                                                                                                                  	G}
+                                                                                                                                                    F
+                   ,3%54
+ y$uS
+     
+                             
+                                            P
+                                                                              
+8	%4
+     
+       x
+        
+2h7.8%NM!
+I gx
+                              
+ N 1
+;wB	
+q      
+   |                 Y
+                 @
+n_RP
+ K7#
+                                                                                                                                      
+^4|+>= !
+6.-9
+     e
+           ~
+"X"|z
+(+P.6A4
+!0~+
+-GF$
+G/P,(
+                                                                                                                                                                                                      T]
+                   
+                                                                                                                  
+                  
+8      g
+                    
+6/f(+
+          
+                                                                                                      
+         
+-f'&$&e
+   i
+A                                        
+     S
+                          
+                                                                                                                  
+                                                                                                                   
+                                                                                                                   
+,D(*-
+,/%F&"
+               .
+f F /
+;N!;'
+                    
+                      w
+                                          
+8,Dc
+           C
+                +
+                         &
+                                   g
+                                      
+                                                      
+                                                          
+                                                               
+                                                                                      H
+                                                                             
+"I#`"%
+5      +
+                                
+           
+                1
+"_$8
+ i3!
+      
+                                              _
+                                                                       
+ {!C+!#
+        
+            W+' _
+                             I
+n$D&I!
+                                                                       
+     
+                           K 
+#   }2
+ e8D,
+ U                              
+                        
+                            
+     
+	49	return input;}	
+""t&
++_0	
+0&],
+;\//?c/W4
+                                                          
+     c
+                              
+                      
+~	o.
+                                          %
+W     
+     
+                           
+   '
+!1+.
+                        H	
+                                           
+Dp !l$
+        
+	$7#(h
+                                                                                  
+                  !
+. E3le	`
+                                                                                  3
+                                               
+                                                                             
+                                                                                
+     A:
+                                  }
+                                       }%Q-
+                                           *[$
+                            
+ VCl k
+     
+        
+       D
+                              
+                                       I	
+                                                 
+                                                                  
+     
+                                                  
+                                                                    
+                                                                     
+	&#8
+                                                                           '
+                                                                                
+\i +E
+                                                                                                                  
+                                                                                                                                  
+                                                                                                                                           
+               5
+(	32	int[] loopBack(int[] input){	
+                                                                          d
+                                                                                           
+                                                                                              
+   x
+5{r	
+  h-~
+       T 
+                                                                                                                                            
+ ;,8
+	X_	c
+     
+                                                                                                                              
+                                
+<V%{
+    
+          6
+bIZ	[
+                  
+                    
+      =
+           
+	<ps
+                      x
+                      
+# ID
+                                                                                                                                                           
+                                                                                                                                                           
+Z [:
+!Lj 
+          
+0)e-i
+                                                       
+	33	int ref=input.length/2;	
+                                                                                                                                              
+          
+t$2"
+                                                                                                                
+                                                                                                                                                s
+           z
+?!O#
++} h nq
+                               
+                                                                                                                    
+         
+            
+               u&n!%R
+                     r	
+!2& R&
+                Km
+                  
+          b	
+U- 4
+                     
+                                     
+R     
+		34	int[] encNew =int[input.length+ref];	
+                                        
+                                               
+                                                                                          
+                         
+                                        
+#                                           
+       	
+        
+         r
+            
+              o
+                 
+                  s
+va k
+!$0~<(
+                
+'5,m#)!>%
+                                     
+ 5                                                                                                         `
+         
+    
+s         _
+                                        
+                                                                                         d
+                                                                                           
+bm*C
+1                                                                                                                        
+ Cj	U
+                                
+     
+                                                                                                              
+                                                                                                               >
+                                                                                                                               
+                                                                                                                                        
+zNA7*
+    }
+    
+                                                                                                                       
+	35	int ch=0;	
+       'z
+         
+e*Q*
+0	O~
+          w<
+             
+                  
+                          
+umb!`
+)*j/$+
+ y	{
+                                                                                       ]
+                                                                                                                                                                                      
+oOkg
+p|GM
+         
+                                 
+                  b
+*(            
+0u5#2y
+                          G
+   p
+   %
+	36	for(int i=(ref/2);i<input.length;i++){	
+                i
+                 N
+                            
+         c
+#       
+iif 
+O/v	
+                                                                                                                                                            
+u#'"A	\
+                                                                                                                                                                             /0"
+V$!!*.,0
+                                                                                                                                                                                                   '#,{Z
+        
+         
+                                                                                                                                     
+>	}y	ZG=	
++^!=%
+         
+      &)W%
+           ez
+                      
+,p D :E
+                          
+                                        
+                                                                 
+!#]#
+        
+0                                                            
+	0Ay;$
+'kY&^
+           .
+                                                             
+                                                                                4
+                                                                                  
+                                                                                     
+                                                                                                          aWx
+                                                                                                               4&
+ I,Y5t/k=:#
+#z IN
+                                                                                                                                         UY -e
+z	37	encNew[i]=input[ch]; ch++;}	
+	38	for(int i=0;i<encNew.length;i++){	
+   	S
+         
+		39	if(encNew[i]<=33) encNew[i]=33+(++ref*2);	
+!+|4
+                   
+                    @
+                      \
+                        S
+u*I' ,
+                                             
+                                                    _
+l   
+              
+   0rW
+d        
+       
+!vZyIB
+3 T*O#
+%m(w%
+ f#C:(
+                        
+                                                   
+              
+	40	else if(encNew[i]>=126) encNew[i]=126-(--ref*2);	
+	41	else{	
+z3c	
+           
+                   
+           
+                   y
+                    
+                             |
+           
+             
+y{Kqvhu
+                                                     '
+	42	if(i%2==0) encNew[i]-=(i%3);	
+               
+     d	
+                  
+     E
+                       
+                                                               
+                                                                                                                               o
+                                                                                                                                                       j
+	43	else encNew[i]+=(i%2);}}	
+ Q. f 
+                   x
+                      
+                                                                                  
+     
+b                 
+                           
+    
+                                                                       'N
+                                                                         
+                                                                                                                 
+                   
+                      
+                        y
+                                        .
+    Mv
+         
+          (U
+J oX	[
+                 )
+  NQ
+    
+        
+           
+                                
+     
+	44	return encNew;}	I
+                                                                                                                         s
+         
+           `
+                                                                                        c
+                                                                                             ^
+3                                                                                                                                                                             
+         
+               
+                  M
+CW%=
+                                                                                   
+X8Q$
+}} 9w

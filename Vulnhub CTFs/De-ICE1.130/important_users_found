@@ -1,0 +1,4 @@
+sysadmin:x:1000:10:,,,:/home/sysadmin:/bin/bash
+dbadmin:x:1001:100:,,,:/home/dbadmin:/bin/bash
+sdadmin:x:1002:100:,,,:/home/sdadmin:/bin/bash
+csadmin:x:1003:100:,,,:/home/csadmin:/bin/bash
