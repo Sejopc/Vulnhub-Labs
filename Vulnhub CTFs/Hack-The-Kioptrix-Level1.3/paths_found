@@ -1,0 +1,18 @@
+Starting OWASP DirBuster 1.0-RC1
+Starting dir/file list based brute forcing
+File found: /database.sql - 200
+File found: /index.php - 200
+Dir found: /images/ - 200
+Dir found: / - 200
+Dir found: /index/ - 200
+Dir found: /cgi-bin/ - 403
+Dir found: /icons/ - 200
+File found: /checklogin.php - 200
+Dir found: /doc/ - 403
+Dir found: /member/ - 302
+File found: /member.php - 302
+Dir found: /icons/small/ - 200
+File found: /logout.php - 302
+Dir found: /logout/ - 302
+Dir found: /john/ - 200
+File found: /john/john.php - 302
