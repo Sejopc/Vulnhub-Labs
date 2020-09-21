@@ -1,0 +1,11 @@
+22/tcp   closed ssh
+80/tcp   open   http    Apache httpd 2.2.21 ((FreeBSD) mod_ssl/2.2.21 OpenSSL/0.9.8q DAV/2 PHP/5.3.8)
+|_http-server-header: Apache/2.2.21 (FreeBSD) mod_ssl/2.2.21 OpenSSL/0.9.8q DAV/2 PHP/5.3.8
+|_http-title: Site doesn't have a title (text/html).
+8080/tcp open   http    Apache httpd 2.2.21 ((FreeBSD) mod_ssl/2.2.21 OpenSSL/0.9.8q DAV/2 PHP/5.3.8)
+MAC Address: 08:00:27:28:94:49 (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: FreeBSD 9.X|10.X
+OS CPE: cpe:/o:freebsd:freebsd:9 cpe:/o:freebsd:freebsd:10
+OS details: FreeBSD 9.0-RELEASE - 10.3-RELEASE
+
