@@ -1,0 +1,17 @@
+Python 2.7.18 (default, Apr 20 2020, 20:30:41) 
+[GCC 9.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import codecs
+>>> str = "mVGZ3O3omkJLmy2pcuTq"
+>>> str = codecs.decode(str, 'rot13')
+>>> str = str[::-1]
+>>> str = codecs.decode(str, 'base64')
+>>> print str
+thisisalsopw123
+>>> str = "=RFn0AKnlMHMPIzpyuTI0ITG"
+>>> str = codecs.decode(str, 'rot13')
+>>> str = str[::-1]
+>>> str = codecs.decode(str, 'base64')
+>>> print str
+LetThereBeFristi!
+
