@@ -1,0 +1,20 @@
+Database: jabcd0cs
+[15 tables]
++-------------------+
+| odm_access_log    |
+| odm_admin         |
+| odm_category      |
+| odm_data          |
+| odm_department    |
+| odm_dept_perms    |
+| odm_dept_reviewer |
+| odm_filetypes     |
+| odm_log           |
+| odm_odmsys        |
+| odm_rights        |
+| odm_settings      |
+| odm_udf           |
+| odm_user          |
+| odm_user_perms    |
++-------------------+
+
