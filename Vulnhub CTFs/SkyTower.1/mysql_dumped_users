@@ -1,0 +1,10 @@
+mysql> select * from login
+    -> ;
++----+---------------------+--------------+
+| id | email               | password     |
++----+---------------------+--------------+
+|  1 | john@skytech.com    | hereisjohn   |
+|  2 | sara@skytech.com    | ihatethisjob |
+|  3 | william@skytech.com | senseable    |
++----+---------------------+--------------+
+

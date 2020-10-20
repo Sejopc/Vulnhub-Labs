@@ -1,0 +1,14 @@
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.6.1 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 85:c3:40:d6:f4:23:6f:16:b1:19:c5:86:a2:46:43:54 (RSA)
+|   256 91:8c:0f:3e:0d:d1:18:86:09:8e:b5:05:50:16:e7:4d (ECDSA)
+|_  256 fc:16:2c:d7:9f:da:e5:b8:9d:17:f4:ea:42:f9:2a:22 (ED25519)
+MAC Address: 08:00:27:93:C4:7D (Oracle VirtualBox virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.10 - 4.11, Linux 3.2 - 4.9
+Network Distance: 1 hop
+

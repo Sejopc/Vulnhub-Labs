@@ -1,0 +1,5 @@
+DEFINE ('DB_USER', 'root');
+DEFINE ('DB_PASSWORD', 'goodday');
+DEFINE ('DB_HOST', 'localhost');
+DEFINE ('DB_NAME', 'ch16');
+
